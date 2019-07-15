@@ -28,7 +28,7 @@ WIN_COMBINATIONS = [
     WIN_COMBINATIONS.each do |i|
       i.each do |j|
         
-        if(board[j] == "X")
+        if(board[j] == " ")
           puts "a"
         end
         
