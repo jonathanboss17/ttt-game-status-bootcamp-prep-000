@@ -95,4 +95,4 @@ WIN_COMBINATIONS = [
   
    board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
    won?(board)
-  # winner(board)
+  winner(board)
