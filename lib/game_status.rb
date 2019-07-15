@@ -32,7 +32,8 @@ WIN_COMBINATIONS = [
     
       end
       
-
+      puts "***"
+      
     end
     
   end
