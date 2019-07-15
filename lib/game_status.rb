@@ -22,15 +22,22 @@ WIN_COMBINATIONS = [
   ]
   
   def won?(board)
-    count = 0 
-    WIN_COMBINATIONS.each do |i| 
-      i.each do |j|
-        if(board[j] == "X")
-          count+=1 
-        end 
-        
-        if(count == 3)
-        
-      end
+    a = [0, 1, 2]
+    b = [3, 4, 5]
+    c = [6, 7, 8]
+    
+    d = [0, 3, 6]
+    e = [1, 4, 7]
+    f = [2, 5, 8]
+    
+    g = [0, 4, 8]
+    h = [2, 4, 6]
+    
+    if(board[a[0]] == "X" && board[a[1]] == "X" && board[a[2]] == "X")
+      puts "X won in the top row"
     end
+    
+    
   end
+  
+  
