@@ -65,7 +65,7 @@ WIN_COMBINATIONS = [
       end
     end
     
-    if(count > 1)
+    if(count > 8)
       return false
     end
     
