@@ -37,6 +37,33 @@ WIN_COMBINATIONS = [
       puts "X won in the top row"
     end
     
+    if(board[b[0]] == "X" && board[b[1]] == "X" && board[b[2]] == "X")
+      puts "X won in the middle row"
+    end
+    
+    if(board[c[0]] == "X" && board[c[1]] == "X" && board[c[2]] == "X")
+      puts "X won in the lower row"
+    end
+    
+    if(board[d[0]] == "X" && board[d[1]] == "X" && board[d[2]] == "X")
+      puts "X won in the left column"
+    end
+    
+    if(board[e[0]] == "X" && board[e[1]] == "X" && board[e[2]] == "X")
+      puts "X won in the middle column"
+    end
+    
+    if(board[f[0]] == "X" && board[f[1]] == "X" && board[f[2]] == "X")
+      puts "X won in the right column"
+    end
+    
+    if(board[g[0]] == "X" && board[g[1]] == "X" && board[g[2]] == "X")
+      puts "X won in the left diagonal"
+    end
+    
+    if(board[e[0]] == "X" && board[e[1]] == "X" && board[e[2]] == "X")
+      puts "X won in the right diagonal"
+    end
     
   end
   
