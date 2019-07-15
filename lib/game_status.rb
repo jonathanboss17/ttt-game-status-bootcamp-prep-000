@@ -87,10 +87,11 @@ WIN_COMBINATIONS = [
   end
   
   def winner(board)
-      if(!full?(board))
-        puts "false"
-      else 
+      if(won?(board))
         puts board[won?(board)[0]]
+        
+      else 
+        puts "false"
       end
   end
   
