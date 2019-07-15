@@ -86,6 +86,10 @@ WIN_COMBINATIONS = [
   end
   
   def winner(board)
-      return board[won?(board)[0]]
+      if(won?(board) == false)
+        return false
+      else
+        return board[won?(board)[0]]
+      end
   end
   
