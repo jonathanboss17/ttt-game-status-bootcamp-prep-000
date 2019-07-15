@@ -27,17 +27,11 @@ WIN_COMBINATIONS = [
     
     WIN_COMBINATIONS.each do |i|
       i.each do |j|
-        
-        if(board[j] == "X")
-          count+=1
-        end
+      
+      puts j
     
       end
       
-      if(count == 3)
-          puts i.inspect
-          break
-      end
 
     end
     
