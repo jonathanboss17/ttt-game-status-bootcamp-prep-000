@@ -22,15 +22,28 @@ WIN_COMBINATIONS = [
   ]
   
   def won?(board)
+    
+    count = 0
+    
     WIN_COMBINATIONS.each do |i|
       i.each do |j|
         
+        if(board[j] == "X")
+          count+=1
+        end
         
       end
+      
+      if(count == 3)
+        return i.inspect
+        count = 0
+      end
+      
     end
+    
   end
   
-# 0, 1, 2 ...
+board = ["X", "X", "O", ]
   
   
   
