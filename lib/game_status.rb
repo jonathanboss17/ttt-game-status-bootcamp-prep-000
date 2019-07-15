@@ -31,7 +31,7 @@ WIN_COMBINATIONS = [
         if(board[j] == "X")
           count+=1
         end
-        
+        puts count
       end
       
       if(count == 3)
@@ -43,7 +43,8 @@ WIN_COMBINATIONS = [
     
   end
   
-board = ["X", "X", "O", ]
-  
+board = ["X", "X", "X","O", "X", "O","X", "X", "O", ]
+
+won?(board)
   
   
