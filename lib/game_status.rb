@@ -23,8 +23,8 @@ WIN_COMBINATIONS = [
   
   def won?(board)
     
-    board.each do |i|
-      if(i = " ")
+    board.each do |a|
+      if(a = " ")
         return false
       end
     end
