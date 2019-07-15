@@ -28,7 +28,7 @@ WIN_COMBINATIONS = [
     WIN_COMBINATIONS.each do |i|
       i.each do |j|
         
-      puts j 
+      puts board[j]
         
       end
       
