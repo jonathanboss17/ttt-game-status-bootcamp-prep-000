@@ -23,13 +23,13 @@ WIN_COMBINATIONS = [
   
   def won?(board)
     
+    
+    
     x_count = 0
     o_count = 0
     
     WIN_COMBINATIONS.each do |i|
       i.each do |j|
-        
-        if(board[j] == "")
         
         if(board[j] == "X")
           x_count+=1
