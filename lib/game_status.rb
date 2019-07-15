@@ -87,7 +87,7 @@ WIN_COMBINATIONS = [
   
   def winner(board)
     if(won?(board) == true)
-  end
+    end
   end
   
    board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
