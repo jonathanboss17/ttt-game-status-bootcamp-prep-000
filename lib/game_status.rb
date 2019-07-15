@@ -37,6 +37,7 @@ WIN_COMBINATIONS = [
       end
       if(x_count == 3 || o_count == 3)
         return i.to_ary
+        return true
         break
       else 
         x_count = 0 
