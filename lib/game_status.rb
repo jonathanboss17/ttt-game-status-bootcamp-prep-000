@@ -64,7 +64,10 @@ WIN_COMBINATIONS = [
         return true 
       end
     end
-    if(count )
+    
+    if(count > 1)
+      return false
+    end
     
   end
   
