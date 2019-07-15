@@ -92,7 +92,4 @@ WIN_COMBINATIONS = [
       end
   end
   
-   board = ["X", "O", " ", " ", " ", " ", " ", "O", "X"]
-
-winner(board)
   
