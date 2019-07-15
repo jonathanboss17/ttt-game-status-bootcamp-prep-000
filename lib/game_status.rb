@@ -28,10 +28,11 @@ WIN_COMBINATIONS = [
     WIN_COMBINATIONS.each do |i|
       i.each do |j|
         
- 
+      puts j 
         
       end
       
+      puts "***"
       
     end
     
