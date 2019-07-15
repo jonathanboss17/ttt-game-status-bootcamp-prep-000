@@ -23,12 +23,6 @@ WIN_COMBINATIONS = [
   
   def won?(board)
     
-    board.each do |a|
-      if(a = " ")
-        return false
-      end
-    end
-    
     x_count = 0
     o_count = 0
     
@@ -57,6 +51,12 @@ WIN_COMBINATIONS = [
     
     if(x_count != 3 && o_count != 3)
       return false 
+    end
+    
+    board.each do |a|
+      if(a = " ")
+        return false
+      end
     end
     
   end
