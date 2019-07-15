@@ -44,6 +44,7 @@ WIN_COMBINATIONS = [
     
   end
   
-
+  board = ["O", " ", "X", "O", " ", "X", "O", " ", " "]
+  won?(board)
   
   
