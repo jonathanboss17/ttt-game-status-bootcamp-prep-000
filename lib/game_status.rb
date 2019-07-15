@@ -36,7 +36,7 @@ WIN_COMBINATIONS = [
         end
       end
       if(x_count == 3 || o_count == 3)
-        puts i.to_ary
+        return i.to_ary
         break
       else 
         x_count = 0 
@@ -86,7 +86,7 @@ WIN_COMBINATIONS = [
   end
   
   def winner(board)
-    won?(board)
+    puts board[won?(board)[0]]
   end
   
    board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
