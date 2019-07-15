@@ -36,6 +36,8 @@ WIN_COMBINATIONS = [
       if(count == 3)
         puts i.inspect 
         break
+      else 
+        puts "cheese"
       end
       
     end
