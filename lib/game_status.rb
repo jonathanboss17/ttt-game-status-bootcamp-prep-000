@@ -33,8 +33,10 @@ WIN_COMBINATIONS = [
         end
       end
       
-      puts "***" + count.to_s 
-      count = 0
+      if(count == 3)
+        puts i.inspect 
+        break
+      end
       
     end
     
