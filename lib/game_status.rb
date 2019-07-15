@@ -86,7 +86,8 @@ WIN_COMBINATIONS = [
   end
   
   def winner(board)
-    puts board[won?(board)]
+    if(won?(board) == true)
+  end
   end
   
    board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
