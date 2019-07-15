@@ -93,3 +93,6 @@ WIN_COMBINATIONS = [
       end
   end
   
+  board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
+  winner(board)
+  
