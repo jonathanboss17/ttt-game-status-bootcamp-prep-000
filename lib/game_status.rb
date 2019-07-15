@@ -34,10 +34,10 @@ WIN_COMBINATIONS = [
         
         if(count == 3)
           puts i.inspect
+          break
         end
     
       end
-      count = 0
     end
     
   end
