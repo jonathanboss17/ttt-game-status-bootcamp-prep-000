@@ -40,7 +40,7 @@ WIN_COMBINATIONS = [
       end
       
       if(x_count == 3 || o_count == 3)
-        return i.to_ary
+        puts i.to_ary
         break
       else 
         x_count = 0 
