@@ -55,6 +55,7 @@ WIN_COMBINATIONS = [
     end
   end
   
-
-  
+  def full?(board)
+    board.each do |i|
+      if()
   
