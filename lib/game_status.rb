@@ -34,7 +34,7 @@ WIN_COMBINATIONS = [
       end
       
       if(count == 3)
-        puts i.to_ary
+        return i.to_ary
         break
       else 
         count = 0 
