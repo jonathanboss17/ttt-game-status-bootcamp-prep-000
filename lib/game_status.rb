@@ -94,4 +94,5 @@ WIN_COMBINATIONS = [
   end
   
    board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
+   won?(board)
    winner(board)
