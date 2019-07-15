@@ -88,7 +88,7 @@ WIN_COMBINATIONS = [
   def winner(board)
     if(won?(board) == true)
       won?(board).each do |i|
-        puts board[i]
+        puts board[i].to_s + "cheese"
       end
     end
   end
