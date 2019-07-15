@@ -88,11 +88,12 @@ WIN_COMBINATIONS = [
   
   def winner(board)
       if(won?(board))
-        return board[won?(board)[0]]
+        puts board[won?(board)[0]]
       else 
-        return false
+        puts "false"
       end
   end
   
+   board = ["X", "O", " ", " ", " ", " ", " ", "O", "X"]
 
   
