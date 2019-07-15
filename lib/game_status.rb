@@ -23,22 +23,27 @@ WIN_COMBINATIONS = [
   
   def won?(board)
     
-    count = 0
+    count = 1
     
     WIN_COMBINATIONS.each do |i|
       i.each do |j|
-      
-      puts j
-    
+        
+        if(board[j] == "X")
+          count+=1 
+        end
+        
       end
       
-      puts "***"
+      if(count == 3)
+        puts i.inspect
+        count = 0
+      end
       
     end
     
   end
   
-board = ["X", "X", "O","O", "O", "O","X", "X", "O", ]
+board = ["X", "X", "X","O", "X", "O","X", "X", "O", ]
 
 won?(board)
   
