@@ -86,7 +86,7 @@ WIN_COMBINATIONS = [
   end
   
   def winner(board)
-    if(won?(board) == true)
+    if(won?(board) != false)
     end
   end
   
