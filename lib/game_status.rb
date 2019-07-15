@@ -44,7 +44,7 @@ WIN_COMBINATIONS = [
     
   end
   
-board = ["X", "", "","X", "", "","X", "", ""]
+board = ["X", "O", "O","X", "X", "O","X", "O", "X"]
 
 won?(board)
   
