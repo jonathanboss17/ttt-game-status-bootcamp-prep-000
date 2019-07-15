@@ -35,7 +35,7 @@ WIN_COMBINATIONS = [
       end
       
       if(count == 3)
-        puts i.inspect
+        puts "cheese"
         count = 0
       end
       
