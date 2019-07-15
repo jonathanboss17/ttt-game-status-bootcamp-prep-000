@@ -89,6 +89,3 @@ WIN_COMBINATIONS = [
     puts board[won?(board)[0]]
   end
   
-   board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
-   won?(board)
-   winner(board)
