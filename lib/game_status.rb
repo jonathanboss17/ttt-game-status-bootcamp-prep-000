@@ -78,7 +78,7 @@ WIN_COMBINATIONS = [
   end
   
   def over?(board)
-    if( won?(board) == true || draw?(board) == true || full?(board) == true || (won?(board) && !full?(board) == true)) 
+    if( won?(board) == true || draw?(board) == true || (won?(board) && !full?(board) == true)) 
       return true 
     else 
       return false
@@ -86,7 +86,7 @@ WIN_COMBINATIONS = [
   end
   
   def winner(board)
-      if(full?(board) == false && won?(board) == false)
+      if(draw?(board) == true)
         return false
       else
         return board[won?(board)[0]]
