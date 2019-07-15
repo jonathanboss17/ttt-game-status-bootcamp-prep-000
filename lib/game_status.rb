@@ -23,21 +23,28 @@ WIN_COMBINATIONS = [
   
   def won?(board)
     
-    count = 0
+    x_count = 0
+    o_count = 0
     
     WIN_COMBINATIONS.each do |i|
       i.each do |j|
         
         if(board[j] == "X")
-          count+=1
+          x_count+=1
         end
+        
+        if(board[j] == "O")
+          o_count+=1 
+        end
+        
       end
       
-      if(count == 3)
+      if(x_count == 3 || o_count == 3)
         return i.to_ary
         break
       else 
-        count = 0 
+        x_count = 0 
+        o_count = 0
       end
       
     end
