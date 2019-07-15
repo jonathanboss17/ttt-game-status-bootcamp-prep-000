@@ -62,12 +62,18 @@ WIN_COMBINATIONS = [
         count+=1 
       end
     end
-    
     if(count == 9)
       return true
     else  
       return false
     end
-    
+  end
+  
+  def draw?(board)
+    if(won?(board) == false && full?(board) == true)
+      return true
+    else 
+      false 
+    end
   end
   
