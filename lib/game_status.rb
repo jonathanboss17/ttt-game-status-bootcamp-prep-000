@@ -29,7 +29,7 @@ WIN_COMBINATIONS = [
       i.each do |j|
         
         if(board[j] == "X")
-          count+=1 
+          puts "cheese"
         end
         
       end
