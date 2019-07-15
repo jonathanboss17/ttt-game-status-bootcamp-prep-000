@@ -23,16 +23,18 @@ WIN_COMBINATIONS = [
   
   def won?(board)
     
-    count = 1
+    count = 0
     
     WIN_COMBINATIONS.each do |i|
       i.each do |j|
         
-      puts board[j]
-        
+        if(board[j] == "X")
+          count+=1
+        end
       end
       
-      puts "***"
+      puts "***" + count.to_s 
+      count = 0
       
     end
     
