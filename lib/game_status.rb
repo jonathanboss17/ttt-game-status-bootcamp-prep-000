@@ -22,7 +22,7 @@ WIN_COMBINATIONS = [
   ]
   
   def won?(board)
-    
+    WIN_COMBINATIONS
   end
   
 # 0, 1, 2 ...
