@@ -31,11 +31,11 @@ WIN_COMBINATIONS = [
         if(board[j] == "X")
           count+=1
         end
-        puts count
+    
       end
       
       if(count == 3)
-        return i.inspect
+        puts i.inspect
         count = 0
       end
       
