@@ -56,12 +56,15 @@ WIN_COMBINATIONS = [
   end
   
   def full?(board)
+    count = 0
     board.each do |i|
       if(i == " ")
-        return false
+        count+=1
       else
         return true 
       end
     end
+    if(count )
+    
   end
   
