@@ -34,7 +34,7 @@ WIN_COMBINATIONS = [
       end
       
       if(count == 3)
-        puts i.inspect 
+        return i.inspect 
         break
       else 
         count = 0 
