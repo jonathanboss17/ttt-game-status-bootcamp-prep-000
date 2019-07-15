@@ -28,16 +28,10 @@ WIN_COMBINATIONS = [
     WIN_COMBINATIONS.each do |i|
       i.each do |j|
         
-        if(board[j] == " ")
-          puts "a"
-        end
+ 
         
       end
       
-      if(count == 3)
-        puts "cheese"
-        count = 0
-      end
       
     end
     
