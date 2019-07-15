@@ -37,7 +37,7 @@ WIN_COMBINATIONS = [
         puts i.inspect 
         break
       else 
-        puts "cheese"
+        count = 0 
       end
       
     end
