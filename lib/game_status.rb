@@ -91,4 +91,5 @@ WIN_COMBINATIONS = [
     end
   end
   
-  board = ["X", "X", "X"]
+   board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
+   winner(board)
