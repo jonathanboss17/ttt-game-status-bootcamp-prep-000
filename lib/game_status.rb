@@ -88,7 +88,7 @@ WIN_COMBINATIONS = [
   def winner(board)
       x = won?(board)[0]
       if(won?(board) == true)
-        puts board[x]
+        puts x
       else
         puts "cheese"
       end
