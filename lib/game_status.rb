@@ -67,6 +67,7 @@ WIN_COMBINATIONS = [
     
   end
   
+# 0, 1, 2 ...
   
   
   
